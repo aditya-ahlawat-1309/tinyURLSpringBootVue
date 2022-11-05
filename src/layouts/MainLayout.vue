@@ -33,7 +33,7 @@
       </q-form>
 
 
-<h6><a :href="`https://tiny-url-youtube.herokuapp.com/${(linkAlias ? linkAlias.alias : '')}`">Generated URL</a> </h6>
+<h6><a target="_blank" :href="`https://tiny-url-youtube.herokuapp.com/${(linkAlias ? linkAlias.alias : '')}`">Generated URL</a> </h6>
 
 
     </div>
