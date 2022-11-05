@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf" >
-    <div style="background-color:white; opacity:0.15;box-shadow: 10px 10px 15px 100px  #ff0080;width:40%;height:50%;position:absolute;z-index:0"></div>
+    <div style="background-color:white; opacity:0.15;box-shadow: 10px 10px 15px 100px  #ff0080;width:40%;height:90%;position:absolute;z-index:0"></div>
     <br/>
     <div style="margin-left:5%">
     <h4>tinyURL</h4>
@@ -39,7 +39,7 @@
     </div>
   </div>
     <q-page-container>
-      <router-view />
+     
     </q-page-container>
   </q-layout>
 </template>
