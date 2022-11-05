@@ -79,7 +79,7 @@ export default defineComponent({
        
   onSubmit() {
 
-        axios.post("https://tiny-url-youtube.herokuapp.com/",this.form)
+        axios.post("https://tiny-url-youtube.herokuapp.com",this.form)
         .then((response) => {
           linkAlias.value = response.data
           console.log(linkAlias.value.alias);
