@@ -33,7 +33,7 @@
       </q-form>
 
 
-<h6><a :href="`http://localhost:8080/${(linkAlias ? linkAlias.alias : '')}`">Generated URL</a> </h6>
+<h6><a :href="`https://tiny-url-youtube.herokuapp.com/${(linkAlias ? linkAlias.alias : '')}`">Generated URL</a> </h6>
 
 
     </div>
@@ -82,7 +82,7 @@ export default defineComponent({
        
   onSubmit() {
 
-        axios.post("http://localhost:8080/",this.form)
+        axios.post("https://tiny-url-youtube.herokuapp.com/",this.form)
         .then((response) => {
           linkAlias.value = response.data
           console.log(linkAlias.value.alias);
